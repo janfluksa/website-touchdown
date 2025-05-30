@@ -49,4 +49,4 @@ Alternatively you can do it in your Terminal.
 
 ### 3. Deploy 
 
-Deployment is automatic. Deployment process on [Netlify hosting](netlify.com) is triggered after successfull push to Github. 
+Deployment process on [Netlify hosting](netlify.com) starts automatically after successfull Github repository update. 
