@@ -1,0 +1,28 @@
+---
+const today = new Date();
+import { getCollection } from 'astro:content';
+const services = await getCollection('services');
+import Image from "astro/components/Image.astro";
+---
+
+
+
+<section class="v-section-padding" aria-label="Introduction">
+    <div class="container ">
+       {services.map(({ id, data }) => (
+          <div class="row mb-5">
+              <div class="col-6 ">
+                  
+                  <h3>{data.title}</h3>
+                  <p>{data.excerpt}</p>
+                  <a class="btn-link btn-arrow-right" href={`/services/${id}`}>{data.linkLabel ? data.linkLabel : 'Read more'}</a>
+              </div>
+              <div class="col-6 ">
+                  <img src={data.image} alt={data.title} />
+                 
+              </div>
+              
+          </div>
+      ))}
+    </div>
+</section>

@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  return services.map((service) => ({
+    params: { slug: service.id },
+  }));
+}
+
+const { slug } = Astro.params;
+const services = await getCollection('services');
+const service = services.find((item) => item.id === slug);
+---
+
+{service ? (
+  <article>
+    <h1>{service.data.title}</h1>
+    <img src={service.data.image} alt={service.data.title} />
+    <p>{service.data.description}</p>
+    <a href={service.data.link}>Více informací</a>
+    <div>{service.body}</div>
+  </article>
+) : (
+  <p>Služba nebyla nalezena.</p>
+)}
