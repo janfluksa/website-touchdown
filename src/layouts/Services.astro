@@ -17,7 +17,8 @@ import Image from "astro/components/Image.astro";
                   <p>{data.excerpt}</p>
                   <a class="btn-link btn-arrow-right" href={`/services/${id}`}>{data.linkLabel ? data.linkLabel : 'Read more'}</a>
               </div>
-              <div class="col-6 ">
+              <div class:list={["col-6", data.side == 'right' ? 'order-first' : '']}>
+                
                   <img src={data.image} alt={data.title} />
                  
               </div>
