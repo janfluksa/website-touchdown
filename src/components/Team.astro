@@ -1,0 +1,40 @@
+---
+const today = new Date();
+import Image from "astro/components/Image.astro";
+import Sector from "./Sector.astro";
+import TeamImage from "../assets/images/touchdown-executive-search-team.png"
+---
+
+<section class="v-section-padding" aria-label="Sectors">
+	<div class="container ">
+			
+		<div class="row align-items-center mb-5 mx-0">
+			
+			<div class="col-6">
+				<h3 class="mb-0">Our Team</h3>
+			</div>
+
+			<div class="col-6" >
+				<p class="text-end mb-0">We are here to deliver expert recruitment and executive search services tailored to your needs.</p>
+			</div>
+			
+		</div>
+		
+				<div class="row mb-5">
+					<div class="col-8 offset-2">
+						<Image src={TeamImage} alt="5 members od Touchdown company team together in the park." class="rounded img-fluid" />
+					</div>
+				</div>
+		
+				<div class="row mb-5">
+					<div class="col-8 offset-2 text-center">
+						<a class="btn btn-rounded btn-arrow-right" role="button" aria-label="Show team members details">Team members details</a>
+					</div>
+				</div>
+		
+	</div>
+</section>
+
+<style>
+	
+</style>

@@ -1,11 +1,17 @@
 ---
 import Navbar from '../components/Navbar.astro';
-import Layout from '../layouts/Layout.astro';
-import Footer from '../components/Footer.astro';
+import Layout from '../components/@Layout.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 import Introduction from '../components/Introduction.astro';
-import Services from '../layouts/Services.astro';
+import Services from '../components/Services.astro';
+import Sectors from '../components/Sectors.astro';
+import Team from '../components/Team.astro';
+import SigmaSearch from '../components/SigmaSearch.astro';
+import Partners from '../components/Partners.astro'
+import Media from '../components/Media.astro'
+import Contact from '../components/Contact.astro'
+import Footer from '../components/Footer.astro';
 ---
 
 
@@ -17,6 +23,15 @@ import Services from '../layouts/Services.astro';
 
 		<main>
 			<Services />
+			<Sectors />
+			<Team />
+			<SigmaSearch />
+
+			<Partners />
+			<Contact />
+			<Media />
+			
+			<Footer />
 		</main>
 
 		
