@@ -6,43 +6,66 @@ const today = new Date();
 	
 	
 	<div class="container">
-		<div class="row">
-			<div class="col">
+		<div class="row mb-5">
+			<div class="col-sm-7">
 				<img src="/public/images/footer-logo.svg" alt="">
 			</div>
-			<div class="col">
 
-				<div class="col">
-					<p aria-label="Touchdown Company Czech Identification number 271-70-748">ID 27170748</p>
-					<p aria-label="Touchdown Company Czech Value Added Tax number CZ-271-70-748">VAT CZ27170748</p>
+			<div class="col-sm-2 text-center">
+				<div class="d-inline-block text-start">
+					<p aria-label="Touchdown Company Czech Identification number 271-70-748">ID <span class="number">27170748</span></p>
+					<p aria-label="Touchdown Company Czech Value Added Tax number CZ-271-70-748">VAT <span class="number">CZ27170748</span></p>
 				</div>
-				<div class="col">
+			</div>
+
+			<div class="col-sm-3 text-center">
+				<div class="d-inline-block text-start">
 					<label id="invoicing-address">Invoicing address:</label>
 					<address aria-labelledby="invoicing-address">
-						Touchdown Czech Republic, s.r.o.
-						nám. Jiřího z Lobkovic 2458/17
+						Touchdown Czech Republic, s.r.o. <br>
+						nám. Jiřího z Lobkovic 2458/17 <br>
 						130 00 Praha 3 – Vinohrady
 					</address>
 				</div>
-
 			</div>
+
 		</div>
 		
 			
 	</div>
-
-		<img class="wide-logo" src="/public/images/footer-logo-transparent.svg" alt="Logo" aria-hidden="true">
+  <img class="wide-logo" src="/public/images/footer-logo-transparent.svg" alt="Logo" aria-hidden="true">
 
 </footer>
 <style>
 	footer {
-		background: #333;
+		background: linear-gradient(219deg, #1D1D1D -22.34%, #065460 192.59%);
+
+Colors
+HSL
+HSL
+Background colors
+
 		min-height: 300px;
+		padding-top: 4rem;
 	}
+
 	p, label, address {
 		color: white;
 	}
+
 	.wide-logo {
 		width: 100%
 	}
+
+	#invoicing-address {
+		font-weight: 500;
+		font-size: 110%;
+		margin-bottom: .5rem;
+		
+	}
+
+	address, .number {
+		opacity: .6;
+	}
+
 </style>

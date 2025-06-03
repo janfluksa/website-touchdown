@@ -5,30 +5,58 @@ import TeamImage from "../assets/images/touchdown-executive-search-team.png"
 ---
 
 <section class="v-section-padding" aria-label="Sectors">
-	<div class="container-fluid">
 			
-		<div class="row align-items-center mb-5 mx-0 touchdown-bg">
-			
-			<div class="col-6">
-				<h3 class="mb-0">Global network of trusted recruitment experts</h3>
-				<p>Gain access to top talent worldwide. As part of Sigma, our search is powered by experienced international partners.</p>
-				<p>Expand your reach, improving candidate quality, and delivering faster results.</p>
-				<a class="btn-link btn-arrow-right" href="https://sigma-search.com/">Learn how Sigma can strengthen your search</a>
+	<div class="sigma-bg">
+		<div class="sigma-map">
+
+
+			<div class="container py-5 h-100">
+				<div class="row align-items-center mb-0 mx-0 h-100">
+
+					<div class="col-12 col-sm-10 col-md-8 col-lg-6 mb-4">
+						<h3 class="h4 mb-4">Global network of trusted recruitment experts</h3>
+						<p>Gain access to top talent worldwide. As part of Sigma, our search is powered by experienced international partners.</p>
+						<p>Expand your reach, improving candidate quality, and delivering faster results.</p>
+						<a class="btn-link btn-arrow-right" href="https://sigma-search.com/">Learn how Sigma can strengthen your search</a>
+					</div>
+
+				</div>
 			</div>
 
-			<div class="col-6" >
-				<img src="/public/images/touchdown-sigma-search-europe.svg" alt="Map of Europe with Sigma Search cities Highlighted. Amsterdam, London, Paris, Bern, Munich, Prague, Bratislava, Lisbon, Porto, Madrid, Barcelona and Milan">
-			</div>
-			
 		</div>
-	
-		
 	</div>
+
+	
 </section>
 
 <style>
-	.touchdown-bg {
-		background-color: #FAFAFA;
-		background-image: url('/public/images/touchdown-sigma-search-white-stripes.svg');
+
+	.sigma-bg {
+		background-color: #fafafa;
+ 		background-image: none;
+		background-size: contain; /* nebo contain nebo 100% 100% */
+		background-position: top left;
+	}
+
+	.sigma-map {
+		background-image: url('/public/images/touchdown-sigma-search-europe.svg');
+		background-repeat: no-repeat;
+		background-size: auto 100%; /* nebo contain nebo 100% 100% */
+		background-position: top left;
+	}
+
+
+	@media screen and (min-width: 510px) {
+		.sigma-map {
+			background-position: top right;
+		}
+	}
+
+	@media screen and (min-width: 992px) {
+		.sigma-bg { background-image: url('/public/images/touchdown-sigma-search-white-stripes.svg'); }
+  	.sigma-map { 
+			background-image: url('/public/images/touchdown-sigma-search-cities.svg'); 
+	    height: 42vw;
+		}
 	}
 </style>

@@ -1,0 +1,17 @@
+---
+const today = new Date();
+interface Props {
+	src: string;
+	alt: string;
+}
+
+const { src, alt } = Astro.props;
+---
+
+<div class="col-6 col-sm-4 col-md-2 text-center">
+	<img src={src} alt={alt}>
+</div>
+
+<style>
+	
+</style>
