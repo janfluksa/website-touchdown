@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "services"
+    label: "Services"
+    folder: "src/collections/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Order", name: "order", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Link label", name: "linkLabel", widget: "string" }
+      - { label: "Image", name: "image", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Side", name: "side", widget: "string" }
+
