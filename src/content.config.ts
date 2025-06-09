@@ -10,9 +10,18 @@ loader: glob({ base: './src/collections/services', pattern: '**/*.{md,mdx}' }),
     link: z.string().url(),
     linkLabel: z.string(),
     image: z.string(),
-	excerpt: z.string(),
-	side: z.string(),
+    excerpt: z.string(),
+    side: z.string(),
   }),
 });
 
-export const collections = { services };
+const media = defineCollection({
+  loader: glob({ base: './src/collections/media', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    title: z.string(),
+    perex: z.string(),
+    date: z.date()
+  }),
+});
+
+export const collections = { services, media };

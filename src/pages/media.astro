@@ -1,0 +1,42 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import Flow from "../components/@Flow.astro";
+
+// Načti články
+const articles = await getCollection("media");
+
+// Seskupení do Map podle roku
+const groupedArray = Array.from(
+  articles
+    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+    .reduce((map, article) => {
+      const year = article.data.date.getFullYear();
+      if (!map.has(year)) map.set(year, []);
+      map.get(year)!.push(article);
+      return map;
+    }, new Map<number, CollectionEntry<"media">[]>())
+).sort((a, b) => b[0] - a[0]); // Udrží pole s roky v sestupném pořadí
+---
+
+<Flow heading="Touchdown company in media">
+  {groupedArray.map(([year, items]) => (
+    <section>
+      <h2 class="h4 mt-5">{year}</h2>
+
+      {items.map((item) => (
+        <div class="card mb-2" key={item.id}>
+          <div class="card-body">
+            <a href={`/media/${item.id}`}>
+              <h3 class="h6 card-title mb-0">{item.data.title}</h3>
+              <p class="card-text">
+                <small class="text-muted">
+                  {item.data.date.toLocaleDateString()}
+                </small>
+              </p>
+            </a> 
+          </div>
+        </div>
+      ))}
+    </section>
+  ))}
+</Flow>

@@ -1,0 +1,4 @@
+{
+  "editor.tabSize": 2,         // nebo 4 podle potřeby
+  "editor.insertSpaces": false  // nebo false, pokud chceš reálné taby
+}

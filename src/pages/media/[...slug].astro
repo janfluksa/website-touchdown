@@ -1,0 +1,29 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const collection = await getCollection('media');
+  return collection.map((item) => ({
+    params: { slug: item.id },
+  }));
+}
+
+const { slug } = Astro.params;
+const collection = await getCollection('media');
+// const doc = collection.find((doc) => doc.id === slug);
+const doc = await getEntry('media', slug);
+
+if (!doc) {
+  throw new Error(`Article '${slug}' not found.`);
+}
+---
+
+
+<article>
+  <h1>{doc.data.title}</h1>
+  <p><em>{doc.data.date.toLocaleDateString()}</em></p>
+  <p><strong>{doc.data.perex}</strong></p>
+  <div>
+    {doc.body}
+  </div>
+</article>

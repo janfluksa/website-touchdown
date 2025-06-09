@@ -11,13 +11,17 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const services = await getCollection('services');
 const service = services.find((item) => item.id === slug);
+
+if (!service) {
+  throw new Error(`Service '${slug}' not found.`);
+}
 ---
 
 {service ? (
   <article>
     <h1>{service.data.title}</h1>
     <img src={service.data.image} alt={service.data.title} />
-    <p>{service.data.description}</p>
+    <p>{service.data.excerpt}</p>
     <a href={service.data.link}>Více informací</a>
     <div>{service.body}</div>
   </article>

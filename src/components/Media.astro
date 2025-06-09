@@ -1,5 +1,11 @@
 ---
-const today = new Date();
+import { getCollection } from "astro:content";
+
+const allArticles = await getCollection("media");
+
+const latest = allArticles
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
 ---
 
 <section class="v-section-padding" aria-label="Sectors">
@@ -19,35 +25,19 @@ const today = new Date();
 
 		<div class="row mb-5">
 
-			<div class="col-sm-6 col-md-4">
-				<img src="/images/services/placeholder.svg" alt="Talent audit" class="img-fluid rounded mb-4 mb-md-0">
-
+    {latest.map((item) => (
+      <div class="col-sm-6 col-md-4">
 				<div class="px-1 mt-3"> 
-					<h3 class="h5">Název článku</h3> 
+					<h3 class="h5">{item.data.title}</h3> 
+					<p>{item.data.perex}</p> 
+					<p>{item.data.date.toLocaleDateString()}</p>
 					<a class="btn-link btn-arrow-right" href="/services/executive-search">Read more</a> 
 				</div> 
-
 			</div>
-
-			<div class="col-sm-6 col-md-4">
-				<img src="/images/services/placeholder.svg" alt="Talent audit" class="img-fluid rounded mb-4 mb-md-0">
-
-				<div class="px-1 mt-3"> 
-					<h3 class="h5">Název článku</h3> 
-					<a class="btn-link btn-arrow-right" href="/services/executive-search">Read more</a> 
-				</div> 
-
-			</div>
-
-			<div class="col-sm-6 col-md-4 d-none d-md-block">
-				<img src="/images/services/placeholder.svg" alt="Talent audit" class="img-fluid rounded mb-4 mb-md-0">
-
-				<div class="px-1 mt-3"> 
-					<h3 class="h5">Název článku</h3> 
-					<a class="btn-link btn-arrow-right" href="/services/executive-search">Read more</a> 
-				</div> 
-
-			</div>
+    ))}
+  <h3></h3>
+        <p></p>
+        <small></small>
 
 		
 
@@ -55,7 +45,8 @@ const today = new Date();
 
 		<div class="row">
 			<div class="col-8 offset-2 text-center">
-				<a class="btn btn-rounded btn-arrow-right" role="button" aria-label="Find more articles about Touchdown company">Find more articles</a>
+				<a href="/media" class="btn btn-rounded btn-arrow-right" 
+				role="button" aria-label="Find more articles about Touchdown company">Find more articles</a>
 			</div>
 		</div>
 
