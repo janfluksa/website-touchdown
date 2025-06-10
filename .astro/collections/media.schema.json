@@ -7,7 +7,7 @@
         "title": {
           "type": "string"
         },
-        "perex": {
+        "url": {
           "type": "string"
         },
         "date": {
@@ -26,14 +26,18 @@
             }
           ]
         },
+        "papers": {
+          "type": "string"
+        },
         "$schema": {
           "type": "string"
         }
       },
       "required": [
         "title",
-        "perex",
-        "date"
+        "url",
+        "date",
+        "papers"
       ],
       "additionalProperties": false
     }

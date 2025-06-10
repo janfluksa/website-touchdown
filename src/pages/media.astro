@@ -24,7 +24,7 @@ const groupedArray = Array.from(
       <h2 class="h4 mt-5">{year}</h2>
 
       {items.map((item) => (
-        <div class="card mb-2" key={item.id}>
+        <div class="card mb-2" id={item.id}>
           <div class="card-body">
             <a href={`/media/${item.id}`}>
               <h3 class="h6 card-title mb-0">{item.data.title}</h3>

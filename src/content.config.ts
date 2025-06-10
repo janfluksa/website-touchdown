@@ -19,8 +19,9 @@ const media = defineCollection({
   loader: glob({ base: './src/collections/media', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
     title: z.string(),
-    perex: z.string(),
-    date: z.date()
+    url: z.string(),
+    date: z.date(),
+    papers: z.string()
   }),
 });
 
