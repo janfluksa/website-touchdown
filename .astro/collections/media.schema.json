@@ -7,9 +7,6 @@
         "title": {
           "type": "string"
         },
-        "url": {
-          "type": "string"
-        },
         "date": {
           "anyOf": [
             {
@@ -26,18 +23,13 @@
             }
           ]
         },
-        "papers": {
-          "type": "string"
-        },
         "$schema": {
           "type": "string"
         }
       },
       "required": [
         "title",
-        "url",
-        "date",
-        "papers"
+        "date"
       ],
       "additionalProperties": false
     }

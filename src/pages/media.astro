@@ -3,7 +3,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import Flow from "../components/@Flow.astro";
 
 // Načti články
-const articles = await getCollection("media");
+const articles = await getCollection('media');
 
 // Seskupení do Map podle roku
 const groupedArray = Array.from(
@@ -26,7 +26,7 @@ const groupedArray = Array.from(
       {items.map((item) => (
         <div class="card mb-2" id={item.id}>
           <div class="card-body">
-            <a href={`/media/${item.id}`}>
+            <a href={`/media/${item.slug}`}>
               <h3 class="h6 card-title mb-0">{item.data.title}</h3>
               <p class="card-text">
                 <small class="text-muted">

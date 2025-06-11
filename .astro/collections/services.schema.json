@@ -10,11 +10,7 @@
         "order": {
           "type": "number"
         },
-        "link": {
-          "type": "string",
-          "format": "uri"
-        },
-        "linkLabel": {
+        "side": {
           "type": "string"
         },
         "image": {
@@ -23,7 +19,7 @@
         "excerpt": {
           "type": "string"
         },
-        "side": {
+        "linkLabel": {
           "type": "string"
         },
         "$schema": {
@@ -33,11 +29,9 @@
       "required": [
         "title",
         "order",
-        "link",
-        "linkLabel",
+        "side",
         "image",
-        "excerpt",
-        "side"
+        "excerpt"
       ],
       "additionalProperties": false
     }

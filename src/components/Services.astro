@@ -3,7 +3,6 @@ const today = new Date();
 import { getCollection } from 'astro:content';
 const unsortedServices = await getCollection('services');
 const services = unsortedServices.sort((a, b) => a.data.order - b.data.order);
-import Image from "astro/components/Image.astro";
 ---
 
 <section class="v-section-padding services" aria-label="Consulting" id="consulting-services">
@@ -14,7 +13,7 @@ import Image from "astro/components/Image.astro";
 
           <div class="row justify-content-center">
 
-            <div class:list={["col-lg-5 col-md-6", data.side == 'right' ? 'order-md-last' : '']}>
+            <div class:list={["col-lg-5 col-md-6", data.side == 'right' ? 'order-md-last' : '']} aria-hidden="true">
               <img src={data.image} alt={data.title} class="img-fluid rounded mb-4 mb-md-0" />
             </div>
 

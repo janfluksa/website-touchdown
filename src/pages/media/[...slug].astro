@@ -1,29 +1,27 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
-
-export async function getStaticPaths() {
-  const collection = await getCollection('media');
-  return collection.map((item) => ({
-    params: { slug: item.id },
-  }));
-}
+import Flow from "../../components/@Flow.astro";
 
 const { slug } = Astro.params;
-const collection = await getCollection('media');
-// const doc = collection.find((doc) => doc.id === slug);
-const doc = await getEntry('media', slug);
+if (!slug) throw new Error('Article slug not found');
+const article = await getEntry('media', slug);
 
-if (!doc) {
-  throw new Error(`Article '${slug}' not found.`);
+if (!article) throw new Error('No article found for this slug');
+const { Content } = await article.render();
+
+// Generate static pages
+export async function getStaticPaths() {
+  const articles = await getCollection('media');
+  return articles.map(article => ({ params: { slug: article.slug } }));
 }
 ---
 
-
-<article>
-  <h1>{doc.data.title}</h1>
-  <p><em>{doc.data.date.toLocaleDateString()}</em></p>
-  <p><strong>{doc.data.perex}</strong></p>
-  <div>
-    {doc.body}
-  </div>
-</article>
+<Flow>
+  <article>
+    <h1>{article.data.title}</h1>
+    <p><em>{article.data.date.toLocaleDateString()}</em></p>
+    <div>
+      <Content />
+    </div>
+  </article>
+</Flow>

@@ -1,18 +1,29 @@
 {
-  "name": "astro",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "@keystatic/templates-astro",
+  "version": "0.0.60",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thinkmill/keystatic/",
+    "directory": "templates/astro"
+  },
+  "dependencies": {
+    "@astrojs/markdoc": "^0.12.9",
+    "@astrojs/node": "^9.2.2",
+    "@astrojs/react": "^4.2.0",
+    "@keystatic/astro": "^5.0.6",
+    "@keystatic/core": "^0.5.47",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "astro": "^5.2.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
   "scripts": {
-    "start": "astro dev",
     "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "^4.3.0",
-    "@astrojs/rss": "^4.0.11",
-    "@astrojs/sitemap": "^3.4.0",
-    "astro": "^5.8.1"
   }
 }
