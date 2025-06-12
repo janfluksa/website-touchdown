@@ -15,7 +15,7 @@ const services = defineCollection({
     title: z.string(),
     order: z.number(),
     side: z.string(),
-    image: z.string(),
+    image: z.optional(z.string()),
     excerpt: z.string(),
     linkLabel: z.optional(z.string()),
   }),

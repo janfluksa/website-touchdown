@@ -3,6 +3,7 @@ const today = new Date();
 import { getCollection } from 'astro:content';
 const unsortedServices = await getCollection('services');
 const services = unsortedServices.sort((a, b) => a.data.order - b.data.order);
+import Image from 'astro/components/Image.astro';
 ---
 
 <section class="v-section-padding services" aria-label="Consulting" id="consulting-services">

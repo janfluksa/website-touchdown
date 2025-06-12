@@ -39,7 +39,7 @@ export default config({
         image: fields.image({ 
           label: 'Image', 
           directory: 'public/images/services',
-          publicPath: 'public/images/services/' 
+          publicPath: '/images/services/' 
         }),
         excerpt: fields.text({ label: 'Krátký popis' }),
         side: fields.select(

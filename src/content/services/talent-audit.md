@@ -2,7 +2,7 @@
 title: Talent audit
 order: 4
 link: https://example.com/webdev
-image: public/images/services/talent-audit/image.svg
+image: /images/services/talent-audit/image.svg
 excerpt: |
   Detailed overview of the strengths and weaknesses of your teams.
 side: right

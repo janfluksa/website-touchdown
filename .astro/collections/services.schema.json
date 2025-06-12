@@ -30,7 +30,6 @@
         "title",
         "order",
         "side",
-        "image",
         "excerpt"
       ],
       "additionalProperties": false
