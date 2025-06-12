@@ -134,6 +134,10 @@ p {
     padding: 0 1rem;
 }
 
+.container-narrow {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 @media screen and (min-width: 450px) { 
 h1 {
