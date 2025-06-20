@@ -2,8 +2,7 @@
 title: Executive Search
 order: 1
 link: https://example.com/webdev
-linkLabel: Link especial
-image: /images/services/executive-search/image.svg
+image: /images/services/executive-search/image.png
 excerpt: >
   Focus on identifying and recruiting highly qualified senior executives who
   match the specific needs and corporate culture.

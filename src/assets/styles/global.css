@@ -23,6 +23,12 @@ a:hover {color: black; text-decoration: underline;}
     border: 1px solid #C3C4C5;
 }
 
+.btn-rounded:hover {
+    border: 1px solid #787878;
+    text-decoration: none;
+    background: #f1f1f1;
+}
+
 /* <svg xmlns="http://www.w3.org/2000/svg" width="8" height="13" viewBox="0 0 8 13" fill="none">
   <path d="M1 11.5L6 6.5L1 1.5" stroke="#E0002D" stroke-width="1.5"/>
 </svg> */
@@ -135,7 +141,7 @@ p {
 }
 
 .container-narrow {
-    max-width: 1000px;
+    max-width: 876px;
     margin: 0 auto;
 }
 

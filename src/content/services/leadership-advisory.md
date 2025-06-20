@@ -2,7 +2,7 @@
 title: Leadership advisory
 order: 2
 link: https://example.com/webdev
-image: /images/services/leadership-advisory/image.svg
+image: /images/services/leadership-advisory/image.png
 excerpt: >
   We assist clients in developing the skills necessary to achieve strategic
   goals, build trust, and foster strong teams.
