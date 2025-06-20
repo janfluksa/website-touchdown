@@ -2,6 +2,8 @@
 title: Kdo zaměstná ajťáka ze Lvova? O specialisty z Ukrajiny se firmy přetahují
 date: 2023-01-23
 papers: Dnes
+papersLogo: >-
+  /images/media/kdo-zamestna-ajtaka-ze-lvova-o-specialisty-z-ukrajiny-se-firmy-pretahuji/papersLogo.png
 ---
 > Stavebnictví, obchod, zdravotnictví, služby, informační technologie… V Česku není pracovní odvětví, kde by Ukrajinci nenašli místo. A firmy je chtějí. Využít pracovní sílu, která se k nám dostává, je za současných podmínek pro obě strany výhodné.
 

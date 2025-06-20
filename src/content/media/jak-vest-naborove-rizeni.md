@@ -2,6 +2,7 @@
 title: Jak vést náborové řízení
 date: 2009-11-02
 papers: Euro
+papersLogo: /images/media/jak-vest-naborove-rizeni/papersLogo.jpg
 ---
 > "Firmy, které si uvědomují, že špatná volba člověka je drahá, berou reference vážně"
 

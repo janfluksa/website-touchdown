@@ -4,6 +4,8 @@ title: >-
   i lépe platí
 date: 2016-02-04
 papers: Hospodářské Noviny
+papersLogo: >-
+  /images/media/manazeri-si-opet-vice-veri-casteji-slysi-na-nove-pracovni-nabidky-a-firmy-je-i-lepe-plati/papersLogo.png
 ---
 > Většina firem dosáhla loni nadprůměrných hospodářských výsledků. Co to znamená pro manažery a firmy z pohledu HR? Nad tím se zamyslela Barbora Tomšovská, výkonná ředitelka personální agentury Touchdown Czech Republic: “Firmy více investují do kategorií ‘nice to have’, opět ve velkém nabírají. Manažeři zase mění místo ochotněji,” říká.
 

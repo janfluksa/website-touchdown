@@ -6,6 +6,8 @@ const media = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.date(),
+    papersLogo: z.string().optional(),
+    papers: z.string().optional(),
   }), 
 });
 
@@ -17,6 +19,7 @@ const services = defineCollection({
     side: z.string(),
     image: z.optional(z.string()),
     excerpt: z.string(),
+    link: z.string(),
     linkLabel: z.optional(z.string()),
   }),
 });

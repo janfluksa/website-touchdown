@@ -23,6 +23,12 @@
             }
           ]
         },
+        "papersLogo": {
+          "type": "string"
+        },
+        "papers": {
+          "type": "string"
+        },
         "$schema": {
           "type": "string"
         }

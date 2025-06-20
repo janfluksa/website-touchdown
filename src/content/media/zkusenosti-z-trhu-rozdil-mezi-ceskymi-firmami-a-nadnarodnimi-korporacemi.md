@@ -2,6 +2,8 @@
 title: "Zkušenosti z\_trhu: Rozdíl mezi českými firmami a\_nadnárodními korporacemi"
 date: 2024-12-12
 papers: HR Forum
+papersLogo: >-
+  /images/media/zkusenosti-z-trhu-rozdil-mezi-ceskymi-firmami-a-nadnarodnimi-korporacemi/papersLogo.png
 ---
 Vždy se zdráhám generalizovat, protože každá firma má své specifické charakteristiky. Nicméně, z&nbsp;našich zkušeností na trhu se často ukazují určité vzorce a&nbsp;rozdíly mezi firmami vlastněnými českými majiteli a&nbsp;nadnárodními korporacemi. Následující poznatky vycházejí z&nbsp;praxe, kterou jsme za léta spolupráce ve společnosti Touchdown s&nbsp;různými klienty nasbírali.
 

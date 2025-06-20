@@ -2,6 +2,8 @@
 title: Manažeři, kteří přišli o práci, hledají nové zaměstnání i déle než rok
 date: 2014-02-24
 papers: Hospodářské Noviny
+papersLogo: >-
+  /images/media/manazeri-kteri-prisli-o-praci-hledaji-nove-zamestnani-i-dele-nez-rok/papersLogo.png
 url: >-
   https://archiv.ihned.cz/c1-61751880-manazeri-kteri-prisli-o-praci-hledaji-nove-zamestnani-i-dele-nez-rok
 ---

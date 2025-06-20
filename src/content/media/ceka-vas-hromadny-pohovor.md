@@ -2,6 +2,7 @@
 title: Čeká vás hromadný pohovor?
 date: 2023-01-23
 papers: Dnes
+papersLogo: /images/media/ceka-vas-hromadny-pohovor/papersLogo.png
 ---
 Výběrové řízení je samo o sobě stresující záležitost. Cizímu člověku předvádět své znalosti a dovednosti přímo na místě chce trochu kuráže a sebevědomí. A teď si představte vše absolvovat veřejně. Vítejte na hromadném pohovoru!
 

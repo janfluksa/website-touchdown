@@ -2,6 +2,8 @@
 title: Nemají lidi, využívají headhuntery. Kdo se nechá snadno ulovit?
 date: 2023-01-23
 papers: Dnes
+papersLogo: >-
+  /images/media/nemaji-lidi-vyuzivaji-headhuntery-kdo-se-necha-snadno-ulovit/papersLogo.png
 ---
 > Podle průzkumu společnosti McKinsey & Company odejde v nejbližší době každý pátý americký zaměstnanec ze své práce. V Česku je touha po změně zaměstnání menší. Ti méně kvalifikovaní o novém angažmá často jen sní, specialisté se dobrého zázemí zase jen tak nepustí.
 

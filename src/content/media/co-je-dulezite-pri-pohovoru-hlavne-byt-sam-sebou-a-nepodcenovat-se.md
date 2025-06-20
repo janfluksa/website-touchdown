@@ -2,6 +2,8 @@
 title: Co je důležité při pohovoru? Hlavně být sám sebou a nepodceňovat se
 date: 2015-08-26
 papers: Brněnský Deník
+papersLogo: >-
+  /images/media/co-je-dulezite-pri-pohovoru-hlavne-byt-sam-sebou-a-nepodcenovat-se/papersLogo.png
 url: >-
   https://brnensky.denik.cz/podnikani/co-je-dulezite-pri-pohovoru-hlavne-byt-sam-sebou-a-nepodcenovat-se-20150828.html
 ---

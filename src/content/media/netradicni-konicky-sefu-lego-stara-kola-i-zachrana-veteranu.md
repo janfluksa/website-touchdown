@@ -2,6 +2,8 @@
 title: Netradiční koníčky šéfů? Lego, stará kola i záchrana veteránů
 date: 2014-12-18
 papers: Ekonom
+papersLogo: >-
+  /images/media/netradicni-konicky-sefu-lego-stara-kola-i-zachrana-veteranu/papersLogo.png
 url: >-
   https://ekonom.ihned.cz/c1-63272730-netradicni-konicky-sefu-lego-stara-kola-i-zachrana-veteranu
 ---

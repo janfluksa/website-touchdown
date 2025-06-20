@@ -2,6 +2,8 @@
 title: 15 zlatých pravidel, jak do firmy nalákat talenty a udržet si je
 date: 2015-11-11
 papers: Hospodářské Noviny
+papersLogo: >-
+  /images/media/15-zlatych-pravidel-jak-do-firmy-nalakat-talenty-a-udrzet-si-je/papersLogo.png
 url: >-
   https://archiv.ihned.cz/c1-64842790-15-zlatych-pravidel-jak-do-firmy-nalakat-talenty-a-udrzet-si-je
 ---

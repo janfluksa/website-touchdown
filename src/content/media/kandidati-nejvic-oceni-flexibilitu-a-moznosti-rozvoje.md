@@ -2,6 +2,8 @@
 title: Kandidáti nejvíc ocení flexibilitu a možnosti rozvoje
 date: 2024-04-18
 papers: Retail News
+papersLogo: >-
+  /images/media/kandidati-nejvic-oceni-flexibilitu-a-moznosti-rozvoje/papersLogo.png
 ---
 > O VÝVOJI NA TRHU PRÁCE A&nbsp;O&nbsp;MOTIVAČNÍCH FAKTORECH, KTERÉ KANDIDÁTI V NÁBORU PREFERUJÍ, HOVOŘÍME S HEADHUNTERKOU BARBOROU TOMŠOVSKOU, MANAGING DIRECTOR, TOUCHDOWN CZECH REPUBLIC S.R.O.
 

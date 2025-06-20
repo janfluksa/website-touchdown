@@ -2,6 +2,7 @@
 title: „Lovci hlav“ v digitální éře
 date: 2013-05-29
 papers: HR Management
+papersLogo: /images/media/lovci-hlav-v-digitalni-ere/papersLogo.png
 url: https://hrm.ihned.cz/c1-60880210-lovci-hlav-v-digitalni-ere
 ---
 Na globálním trhu práce probíhá radikální proměna, která spolu s rozvojem moderních technologií zasahuje do dosavadních způsobů přímého oslovování kandidátů headhuntery a executive search konzultanty. Požádali jsme některé ze společností, které se executive search a headhuntingem zabývají, aby popsaly trendy, které se v jejich oboru prosazují.

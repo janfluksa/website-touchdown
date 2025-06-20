@@ -1,5 +1,6 @@
 html, body {
     min-width: 20rem;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -13,6 +14,11 @@ h1 {
 
 a:link, a:visited  {color: black; text-decoration: none;}
 a:hover {color: black; text-decoration: underline;}
+
+
+.papers-logo {
+    max-height: 50px;
+}
 
 .btn-rounded {
     display: inline-flex;
@@ -186,3 +192,18 @@ h1 {
     font-size: 2.25rem; 
 }
 }
+
+
+.navbar-collapse {
+    background: #f0f0f0;
+    padding: 0 16px 24px;
+    margin: 16px 0;
+    border-radius: 16px;
+}
+
+article	h1 { font-size: 40px !important; }
+article	h2 { font-size: 30px !important; }
+article	h3 { font-size: 26px !important; }
+article	h4 { font-size: 22px !important; }
+article	h5 { font-size: 20px !important; }
+article	h6 { font-size: 17px !important; }

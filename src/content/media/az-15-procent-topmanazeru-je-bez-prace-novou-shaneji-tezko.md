@@ -2,6 +2,8 @@
 title: Až 15 procent topmanažerů je bez práce, novou shánějí těžko
 date: 2014-02-24
 papers: Hospodářské Noviny
+papersLogo: >-
+  /images/media/az-15-procent-topmanazeru-je-bez-prace-novou-shaneji-tezko/papersLogo.png
 url: >-
   https://archiv.ihned.cz/c1-61752340-az-15-procent-topmanazeru-je-bez-prace-novou-shaneji-tezko
 ---

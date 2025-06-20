@@ -2,6 +2,7 @@
 title: Firmy začínají doplňovat týmy
 date: 2010-01-25
 papers: Euro
+papersLogo: /images/media/firmy-zacinaji-doplnovat-tymy/papersLogo.jpg
 url: >-
   https://finance.idnes.cz/k-vypovedi-pristupujte-s-nadhledem-d6d-/podnikani.aspx?c=A090122_1125656_firmy_rady_hru
 ---

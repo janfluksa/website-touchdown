@@ -16,6 +16,11 @@ export default config({
         title: fields.slug({ name: { label: 'Title' } }),
         date: fields.date({label: 'Datum publikace', description: 'Vyber datum a čas publikace',  }),
         papers: fields.text({ label: 'Noviny', description: 'Ve kterých novinách článek vyšel'}),
+        papersLogo: fields.image({ 
+          label: 'Logo novin', 
+          directory: 'public/images/media',
+          publicPath: '/images/media/' 
+        }),
         url: fields.text({ label: 'URL (volitelné)', description: 'Internetová adresa umístění článku' }),
         body: fields.markdoc({
           label: 'Content',

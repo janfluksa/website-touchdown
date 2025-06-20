@@ -2,6 +2,7 @@
 title: Výše mzdy bude brzy věc veřejná
 date: 2024-02-08
 papers: Dnes
+papersLogo: /images/media/vyse-mzdy-bude-brzy-vec-verejna/papersLogo.png
 ---
 > Má Zuzana vědět, kolik peněz bere Franta na stejné či srovnatelné pozici? Takové informace, dosud držené za dveřmi personálních oddělení, by měly být podle novely zákoníku práce od roku 2025 odtajněné. Česko se bude totiž muset přizpůsobit směrnici EU, která o platové rovnosti pojednává. Některé firmy se bojí problémů a zvýšené administrativy.
 
