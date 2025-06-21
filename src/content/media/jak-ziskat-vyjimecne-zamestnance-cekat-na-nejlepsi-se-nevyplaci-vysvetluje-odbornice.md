@@ -4,8 +4,7 @@ title: >-
   odbornice
 date: 2024-02-22
 papers: HR Fórum
-papersLogo: >-
-  /images/media/jak-ziskat-vyjimecne-zamestnance-cekat-na-nejlepsi-se-nevyplaci-vysvetluje-odbornice/papersLogo.png
+logo: hr-forum
 ---
 > Jak vypadají dnešní nábory nových pracovníků? Které benefity se vyplatí nabízet? Co je to polyworking? A jak se v čase proměnil náš pracovní „šatník“? O tom všem si povídáme s Barborou Tomšovskou, která je Managing Director ve společnosti Touchdown Czech Republic, která se zabývá executive search a manažerským poradenstvím.
 

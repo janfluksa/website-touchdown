@@ -4,8 +4,7 @@ title: >-
   nejčastěji, aby získali prostor pro rozvoj
 date: 2017-02-06
 papers: Hospodářské Noviny
-papersLogo: >-
-  /images/media/vypoved-muze-byt-krokem-k-mnohem-zajimavejsi-kariere-lide-meni-praci-nejcasteji-aby-ziskali-prostor-pro-rozvoj/papersLogo.png
+logo: hn
 url: >-
   https://archiv.hn.cz/c1-65611970-vypoved-muze-byt-krokem-k-mnohem-zajimavejsi-kariere
 ---

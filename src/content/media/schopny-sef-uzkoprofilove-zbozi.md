@@ -2,7 +2,7 @@
 title: 'Schopný šéf: úzkoprofilové zboží'
 date: 2011-04-04
 papers: Euro
-papersLogo: /images/media/schopny-sef-uzkoprofilove-zbozi/papersLogo.jpg
+logo: euro
 ---
 > Ve světě manažerů přetrvává zostřená konkurence, ti nejlepší si ale mohou diktovat podmínky
 

@@ -2,8 +2,7 @@
 title: Při pracovním pohovoru buďte sami sebou. A nepodceňujte své schopnosti
 date: 2015-08-19
 papers: Deník
-papersLogo: >-
-  /images/media/pri-pracovnim-pohovoru-budte-sami-sebou-a-nepodcenujte-sve-schopnosti/papersLogo.png
+logo: denik
 ---
 > Podle odborníků je důležité při neúspěchu hned na první pokus nepropadat beznaději
 

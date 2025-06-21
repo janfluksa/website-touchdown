@@ -4,8 +4,7 @@ title: >-
   zasáhla hlavně USA
 date: 2024-12-11
 papers: Hospodářské Noviny
-papersLogo: >-
-  /images/media/firmy-se-zacinaji-ptat-kolik-skutecne-potrebuji-manazeru-vlna-unbossingu-zasahla-hlavne-usa/papersLogo.png
+logo: hn
 ---
 Je to jako vlna, která započala přibližně před pěti lety. Firmy v Česku i ve světě si začaly všímat, že mají příliš mnoho manažerů. V rámci úspor i&nbsp;[zefektivnění](https://archiv.hn.cz/c1-67320330-jestli-mas-uz-hotovo-tady-mas-dalsi-praci-jak-si-firmy-odhani-nejlepsi-zamestnance)&nbsp;proto začaly postupně rušit část vedoucích pozic uvnitř struktury, to znamená&nbsp;šéfy některých oddělení či divizí. Trend zeštíhlování středního managementu je zejména v USA letos v plné síle. Proč se tato strategie může firmám vyplatit?
 

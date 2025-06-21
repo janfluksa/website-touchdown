@@ -2,7 +2,7 @@
 title: Tuláci po firmách. Spokojeni nejsou nikdy a nikde
 date: 2016-12-01
 papers: Euro
-papersLogo: /images/media/tulaci-po-firmach-spokojeni-nejsou-nikdy-a-nikde/papersLogo.jpg
+logo: euro
 ---
 > Když fluktuanta práce nebaví, odejde. Není pro něj problém přivydělat si na internetu, nouzí netrpí a udržet ho ve firmě je skoro nemožné.
 

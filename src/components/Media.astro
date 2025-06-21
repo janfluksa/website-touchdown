@@ -29,7 +29,7 @@ const latest = allArticles
       <div class="col-sm-6 col-md-4">
 				<div class="px-1 mt-3"> 
 					<p>
-						<img src={item.data.papersLogo} alt={item.data.papers} class="img-fluid papers-logo">
+						<img src={"/images/media/"+item.data.logo+".png"} alt={item.data.papers} class="img-fluid papers-logo">
 					</p>
 					<p class="text-muted mb-1" aria-label={`Article publishing date: ${item.data.date.toLocaleDateString("en-GB")}`}><small>{item.data.date.toLocaleDateString("cs-CZ")} </small></p>
 					<h3 class="h5" aria-label="Article in czech language: {item.data.title}">{item.data.title}</h3> 

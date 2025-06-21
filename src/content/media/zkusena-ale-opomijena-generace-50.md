@@ -2,7 +2,7 @@
 title: Zkušená, ale opomíjená generace 50+
 date: 2017-09-20
 papers: HR Magazín
-papersLogo: /images/media/zkusena-ale-opomijena-generace-50/papersLogo.png
+logo: hr-magazin
 ---
 > Firmy v současné době ekonomického růstu mají velký problém najít kvalifikované zaměstnance. S oblibou říkají, že jich je na trhu málo. To však není pravdou. Existuje tu totiž početná skupina lidí, která by ráda pracovala, jen si ji málo firem všímá, je přehlížena. Jde o generaci 50+ a přitom se v ní nachází řada lidí, kteří mají, co nabídnout. Musí jen vědět, jak na to.
 

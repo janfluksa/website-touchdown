@@ -2,8 +2,7 @@
 title: Při propouštění buďte korektní. Čtěte 4 tipy, jak na ukončovací pohovor
 date: 2015-10-02
 papers: ProByznys.info
-papersLogo: >-
-  /images/media/pri-propousteni-budte-korektni-ctete-4-tipy-jak-na-ukoncovaci-pohovor/papersLogo.jpg
+logo: probussiness-info
 url: >-
   https://probyznysinfo.ihned.cz/c1-64682960-pri-propousteni-budte-korektni-ctete-4-tipy-jak-na-ukoncovaci-pohovor
 ---

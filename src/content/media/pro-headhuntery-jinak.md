@@ -2,7 +2,7 @@
 title: Pro headhuntery jinak
 date: 2010-02-08
 papers: Euro
-papersLogo: /images/media/pro-headhuntery-jinak/papersLogo.jpg
+logo: euro
 ---
 > Mnoha kandidátům na manažerské funkce se začíná vracet pokora, která jim dříve scházela
 

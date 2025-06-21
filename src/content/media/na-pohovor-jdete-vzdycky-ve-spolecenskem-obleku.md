@@ -2,7 +2,7 @@
 title: Na pohovor jděte vždycky ve společenském obleku
 date: 2015-10-12
 papers: Deník
-papersLogo: /images/media/na-pohovor-jdete-vzdycky-ve-spolecenskem-obleku/papersLogo.png
+logo: denik
 ---
 Společenský oděv je vyjádřením úcty k člověku, se kterým jednáte, proto nikdy na pracovní pohovor nechoďte v ležérním oblečení nebo riflích. Manažer investiční skupiny DRFG odpovědný za finanční služby Břetislav Hrabě a jednatel a spolumajitel společnosti Royal Vision Petr Válek, společně s výkonnou ředitelkou poradenské společnosti Touchdown Barborou Tomšovskou radí, jak se obléct na pohovor. Shodují se, že je dobré do obleku na pohovor investovat. Zároveň ale musí být pohodlný. Drahý totiž automaticky neznamená kvalitní a padnoucí.
 

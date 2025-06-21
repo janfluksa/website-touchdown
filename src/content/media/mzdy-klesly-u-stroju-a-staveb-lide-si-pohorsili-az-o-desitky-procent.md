@@ -2,8 +2,7 @@
 title: Mzdy klesly u strojů a staveb, lidé si pohoršili až o desítky procent
 date: 2009-07-27
 papers: iDnes.cz / Ekonomika
-papersLogo: >-
-  /images/media/mzdy-klesly-u-stroju-a-staveb-lide-si-pohorsili-az-o-desitky-procent/papersLogo.png
+logo: idnes-ekonomika
 url: >-
   https://ekonomika.idnes.cz/mzdy-klesly-u-stroju-a-staveb-lide-si-pohorsili-az-o-desitky-procent-1ga-/ekonomika.aspx?c=A090726_201038_ekonomika_abr
 ---

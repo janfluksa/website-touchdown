@@ -2,8 +2,7 @@
 title: Facebook i LinkedIn. Sociální sítě jsou hitem pro vyhledávání talentů
 date: 2014-02-17
 papers: Hospodářské Noviny
-papersLogo: >-
-  /images/media/facebook-i-linked-in-socialni-site-jsou-hitem-pro-vyhledavani-talentu/papersLogo.png
+logo: hn
 url: >-
   https://hn.ihned.cz/c1-61715020-facebook-i-linkedin-socialni-site-jsou-hitem-pro-vyhledavani-talentu
 ---

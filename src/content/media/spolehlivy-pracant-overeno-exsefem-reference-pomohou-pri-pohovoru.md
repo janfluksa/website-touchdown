@@ -2,8 +2,7 @@
 title: Spolehlivý pracant, ověřeno exšéfem. Reference pomohou při pohovoru
 date: 2014-05-01
 papers: iDnes.cz / Finance
-papersLogo: >-
-  /images/media/spolehlivy-pracant-overeno-exsefem-reference-pomohou-pri-pohovoru/papersLogo.png
+logo: idnes-finance
 url: >-
   https://finance.idnes.cz/doporuceni-pri-prijimacim-pohovoru-db5-/podnikani.aspx?c=A140327_2050031_podnikani_zuk
 ---

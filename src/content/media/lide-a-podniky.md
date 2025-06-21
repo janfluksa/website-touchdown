@@ -2,7 +2,7 @@
 title: Lidé a podniky"
 date: 2010-10-04
 papers: Euro
-papersLogo: /images/media/lide-a-podniky/papersLogo.jpg
+logo: euro
 ---
 ## AVG TECHNOLOGIES
 

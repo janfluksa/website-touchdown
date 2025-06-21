@@ -2,8 +2,7 @@
 title: Rozumí si “lovci hlav” s českým právem? Nijak nás neomezuje, tvrdí
 date: 2014-11-14
 papers: Hospodářské Noviny
-papersLogo: >-
-  /images/media/rozumi-si-lovci-hlav-s-ceskym-pravem-nijak-nas-neomezuje-tvrdi/papersLogo.png
+logo: hn
 url: >-
   https://probyznysinfo.ihned.cz/lide-a-personalni-rizeni-zamestnanci/c1-63117560-rozumi-si-lovci-hlav-s-nbsp-ceskym-pravem-nbsp-nijak-nas-neomezuje-tvrdi
 ---

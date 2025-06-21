@@ -2,8 +2,7 @@
 title: S čím pomůže kariérní kouč a kolik jeho práce stojí
 date: 2015-09-02
 papers: iDnes.cz / Finance
-papersLogo: >-
-  /images/media/s-cim-pomuze-karierni-kouc-a-kolik-jeho-prace-stoji/papersLogo.png
+logo: idnes-finance
 url: >-
   https://finance.idnes.cz/rady-personalistky-kariera-s-koucem-d7q-/podnikani.aspx?c=A150820_2185399_podnikani_kho
 ---

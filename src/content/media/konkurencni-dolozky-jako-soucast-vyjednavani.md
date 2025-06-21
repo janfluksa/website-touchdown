@@ -2,7 +2,7 @@
 title: Konkurenční doložky jako součást vyjednávání
 date: 2014-11-14
 papers: Hospodářské Noviny
-papersLogo: /images/media/konkurencni-dolozky-jako-soucast-vyjednavani/papersLogo.png
+logo: hn
 url: >-
   https://pravniradce.ihned.cz/c1-63112610-konkurencni-dolozky-jako-soucast-vyjednavani
 ---

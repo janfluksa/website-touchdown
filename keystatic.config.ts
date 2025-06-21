@@ -15,12 +15,30 @@ export default config({
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
         date: fields.date({label: 'Datum publikace', description: 'Vyber datum a čas publikace',  }),
+        papersLogo: fields.image({label:"Image logo"}),
         papers: fields.text({ label: 'Noviny', description: 'Ve kterých novinách článek vyšel'}),
-        papersLogo: fields.image({ 
-          label: 'Logo novin', 
-          directory: 'public/images/media',
-          publicPath: '/images/media/' 
-        }),
+        logo: fields.select({
+          label: 'Logo novin',
+          options: [
+            { label: 'Deník', value: 'denik' },
+            { label: 'Dnes', value: 'dnes' },
+            { label: 'E15 Ekonom', value: 'e15-ekonom' },
+            { label: 'E15', value: 'e15' },
+            { label: 'Euro', value: 'euro' },
+            { label: 'Feedit', value: 'feedit' },
+            { label: 'Hospodářské Noviny', value: 'hn' },
+            { label: 'HR Forum', value: 'hr-forum' },
+            { label: 'HR Magazin', value: 'hr-magazin' },
+            { label: 'HR Management', value: 'hr-management' },
+            { label: 'iDnes / Ekonomika', value: 'idnes-ekonomika' },
+            { label: 'iDnes / Finance', value: 'idnes-finance' },
+            { label: 'KarieraWeb', value: 'karieraweb' },
+            { label: 'Probusiness Info', value: 'probussiness-info' },
+            { label: 'Profit', value: 'profit' },
+            { label: 'Retail News', value: 'retail-news' },
+          ],
+          defaultValue: 'dnes'
+        }) ,
         url: fields.text({ label: 'URL (volitelné)', description: 'Internetová adresa umístění článku' }),
         body: fields.markdoc({
           label: 'Content',
@@ -28,7 +46,7 @@ export default config({
         }),
       },
 
-      columns: ["title", "date","papers"],
+      columns: ["title", "logo", "date","papers"],
     }),
 
     services: collection({

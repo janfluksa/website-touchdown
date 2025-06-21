@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import Flow from "../../components/@Flow.astro";
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
@@ -17,14 +18,15 @@ if (!service) {
 }
 ---
 
+<Flow>
 {service ? (
   <article>
     <h1>{service.data.title}</h1>
-    <img src={service.data.image} alt={service.data.title} />
+    
     <p>{service.data.excerpt}</p>
-    <a href={service.data.link}>Více informací</a>
     <div>{service.body}</div>
   </article>
 ) : (
   <p>Služba nebyla nalezena.</p>
 )}
+</Flow>

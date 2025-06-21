@@ -2,8 +2,7 @@
 title: 'Odborníci radí: Při podnikání jde přátelství stranou'
 date: 2015-09-08
 papers: Brněnský deník
-papersLogo: >-
-  /images/media/odbornici-radi-pri-podnikani-jde-pratelstvi-stranou/papersLogo.png
+logo: denik
 url: >-
   https://brnensky.denik.cz/podnikani/odbornici-radi-pri-podnikani-jde-pratelstvi-stranou-20150909.html
 ---

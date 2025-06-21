@@ -2,7 +2,7 @@
 title: Osobností HR 2016 se stala Eva Vacíková
 date: 2017-01-10
 papers: Feedit.cz
-papersLogo: /images/media/osobnosti-hr-2016-se-stala-eva-vacikova/papersLogo.png
+logo: feedit
 ---
 > Sídlo společnosti Microsoft ČR hostilo již pátý výroční HR SUMMIT Klubu zaměstnavatelů. Na něm se mimo jiné rozhodovalo, kdo se v soutěži Zaměstnavatel roku 2016 stane osobností HR. Slavnostního vyhlášení se zúčastnili přední personalisté z České republiky. Partnerem akce a poradenským garantem je společnost Touchdown. (TZ)
 

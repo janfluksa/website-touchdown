@@ -4,8 +4,7 @@ title: >-
   ale rozdíly zůstávají
 date: 2024-08-12
 papers: Hospodářské Noviny
-papersLogo: >-
-  /images/media/nova-data-ceske-manazerky-uz-berou-podobne-jako-muzi-na-nejvyssich-postech-ale-rozdily-zustavaji/papersLogo.png
+logo: hn
 ---
 Rozdíl v odměňování žen a mužů je v Česku dlouhodobě&nbsp;[jeden z největších v Evropě](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics).&nbsp;Jde ale&nbsp;o obecný pohled, který je do jisté míry zkreslený, jak ukazuje nový průzkum. Na jednu stranu z něj vyplývá, že je žen v lépe placeném&nbsp;vedení českých firem stále málo. Pozitivní ale naopak je, že jakmile se do managementu&nbsp;dostanou, může být jejich plat s mužem v podobné roli srovnatelný. Příjmy českých manažerek jsou tak naopak&nbsp;[nad průměrem EU](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/gender-equality/equal-pay/gender-pay-gap-situation-eu_en).
 

@@ -38,7 +38,7 @@ const { title = SITE_TITLE, description, heading } = Astro.props;
 					<div>
 						<div>
 							<a href="/" id="preferHistory">
-								Touchdown Executive Search
+								Touchdown
 							</a>
 						</div>
 
@@ -87,13 +87,16 @@ const { title = SITE_TITLE, description, heading } = Astro.props;
 
 <style>
 	#preferHistory {
-		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30px' viewBox='0 -960 960 960' width='40px' fill='%235f6368'%3E%3Cpath d='m275.84-454.87 239.75 239.48L480-180 180-480l300-300 35.59 35.39-239.75 239.48H780v50.26H275.84Z'/%3E%3C/svg%3E");
-		background-position: center left;
+		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30px' viewBox='0 -960 960 960' width='40px' fill='%23f00b39'%3E%3Cpath d='m275.84-454.87 239.75 239.48L480-180 180-480l300-300 35.59 35.39-239.75 239.48H780v50.26H275.84Z'/%3E%3C/svg%3E");
+		background-position: left center;
 		background-repeat: no-repeat;
 		padding-left: 2.5rem;
 		min-height: 4rem;
 		display: inline-flex;
 		align-items: center;
+		transform: translateX(-6px);
+		margin-top: 1rem;
+		color: #f00b39 !important
 	}
 
 	#preferHistory:hover {

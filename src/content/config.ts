@@ -6,7 +6,7 @@ const media = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.date(),
-    papersLogo: z.string().optional(),
+    logo: z.string().optional(),
     papers: z.string().optional(),
   }), 
 });
