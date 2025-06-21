@@ -8,9 +8,17 @@ interface Props {
 	title?: string;
 	description?: string;
 	heading?: string;
+	backlink?: string;
+	cls?: string;
 }
 
-const { title = SITE_TITLE, description, heading } = Astro.props;
+const { 
+	title = SITE_TITLE, 
+	description, 
+	heading, 
+	backlink = "Touchdown", 
+	cls,  
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -36,13 +44,13 @@ const { title = SITE_TITLE, description, heading } = Astro.props;
 			<div class="container">
 				<div class="col col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
 					<div>
-						<div>
+						<div class:list={cls}>
 							<a href="/" id="preferHistory">
-								Touchdown
+								{backlink}
 							</a>
 						</div>
 
-						<div class="mb-2">
+						<div class="mb-2" class:list={cls}>
 							{heading && <h1 class="h4">{heading}</h1> }
 						</div>
 					<slot />

@@ -17,7 +17,17 @@ a:hover {color: black; text-decoration: underline;}
 
 
 .papers-logo {
+    height: auto;
+    width: auto;
     max-height: 50px;
+}
+
+.papers-card {
+    background: #f7f7f7;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+    margin-bottom: 1.5rem
 }
 
 .btn-rounded {

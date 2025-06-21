@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import Flow from "../../components/@Flow.astro";
+
+export async function getStaticPaths() {
+  const team = await getCollection('team');
+  return team.map((member) => ({
+    params: { slug: member.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const team = await getCollection('team');
+const member = team.find((item) => item.slug === slug);
+
+if (!member) {
+  throw new Error(`Team member '${slug}' not found.`);
+}
+---
+
+<Flow backlink="Team members">
+{member ? (
+    <h1>{member.data.name}</h1>
+    <div>{member.body}</div>
+) : (
+  <p>Team member not found.</p>
+)}
+</Flow>

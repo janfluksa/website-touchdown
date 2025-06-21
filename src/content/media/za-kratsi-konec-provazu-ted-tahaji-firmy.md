@@ -1,8 +1,8 @@
 ---
 title: Za kratší konec provazu teď tahají firmy
 date: 2023-01-23
-papers: Dnes
-papersLogo: /images/media/za-kratsi-konec-provazu-ted-tahaji-firmy/papersLogo.png
+papers: 'Dnes '
+logo: dnes
 ---
 > Na trhu práce je takový hlad po lidech, že si absolventi většinou mohou z nabídek vybírat. „Jsou na startovní pozici a mají při hledání práce často lepší vyhlídky než manažeři,“ říká Barbora Tomšovská z headhunterské agentury Touchdown.
 

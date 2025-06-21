@@ -81,6 +81,28 @@ export default config({
       },
     }),
 
+    team: collection({
+    label: 'Team',
+      slugField: 'name',
+      path: './src/content/team/*',
+      format: { contentField: 'body' },
+      schema: {
+        name: fields.slug({ name: { label: 'Name' } }),
+        order: fields.integer({ label: "Pořadí"}),
+        role: fields.text({ label: 'Role' }),
+        image: fields.image({ 
+          label: 'Photo', 
+          description: 'Square 800x800',
+          directory: 'public/images/team',
+          publicPath: '/images/team/' 
+        }),
+        body: fields.markdoc({
+          label: 'Content',
+          extension: 'md'
+        }),
+      },
+    }),
+
 
 
   },

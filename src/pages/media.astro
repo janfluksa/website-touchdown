@@ -18,26 +18,25 @@ const groupedArray = Array.from(
 ).sort((a, b) => b[0] - a[0]); // Udrží pole s roky v sestupném pořadí
 ---
 
-<Flow heading="Touchdown company in media">
+<Flow heading="Touchdown in Media" cls="mx-3">
   {groupedArray.map(([year, items]) => (
-    <section>
-      <h2 class="h4 mt-5">{year}</h2>
+      <h2 class="h4 mx-3 my-5">{year}</h2>
 
+      <div class="row mb-5 mx-0">
       {items.map((item) => (
-        <div class="card mb-2" id={item.id}>
-          <div class="card-body">
-            <a href={`/media/${item.slug}`}>
-              <h3 class="h6 card-title mb-0">{item.data.title}</h3>
-              <p class="card-text">
-                <small class="text-muted">
-                  {item.data.date.toLocaleDateString()}
-                </small>
-              </p>
-              <p><img src={"/images/media/"+item.data.logo+".png"} alt={item.data.papers} class="papers-logo img-fluid"></p>
-            </a> 
-          </div>
-        </div>
+         <div class="col-sm-6 col-md-6">
+				<a class="" href={`/media/${item.slug}`}>
+					<div class="papers-card"> 
+				
+							<img src={"/images/media/"+item.data.logo+".png"} alt={item.data.papers} class="papers-logo">
+					
+            <p class="text-muted mb-1" aria-label={`Article publishing date: ${item.data.date.toLocaleDateString("en-GB")}`}><small>{item.data.date.toLocaleDateString("cs-CZ")} </small></p>
+						<h3 class="h6" aria-label="Article in czech language: {item.data.title}">{item.data.title}</h3> 
+						
+					</div> 
+				</a> 
+			</div>
       ))}
-    </section>
+      </div>
   ))}
 </Flow>

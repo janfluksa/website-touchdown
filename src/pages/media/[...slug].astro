@@ -18,9 +18,9 @@ export async function getStaticPaths() {
 
 <Flow>
   <article>
-    <h1 class="h3">{article.data.title}</h1>
+    <h1 class="h4">{article.data.title}</h1>
    
-    <p>
+    <p class="mb-4">
       <img src={"/images/media/"+article.data.logo+".png"} alt={article.data.papers} class="papers-logo img-fluid"/>
       <br><em>{article.data.date.toLocaleDateString()}</em>
     </p>
@@ -29,3 +29,4 @@ export async function getStaticPaths() {
     </div>
   </article>
 </Flow>
+

@@ -1,8 +1,8 @@
 ---
 title: Muži do Applu, ženy do ČNB
 date: 2016-08-12
-papers: Dnes
-papersLogo: /images/media/muzi-do-applu-zeny-do-cnb/papersLogo.png
+papers: 'Dnes '
+logo: dnes
 ---
 Vysokoškolačky, zejména ekonomky, by pracovaly nejraději v ČNB. Stejně je však láká Čedok či L’Oréal. Zato u mužských protějšků byste poslední dvě firmy hledali na předních místech marně. Ti raději chtějí kariéru spojit se značkami, jako je Apple či BMW.
 

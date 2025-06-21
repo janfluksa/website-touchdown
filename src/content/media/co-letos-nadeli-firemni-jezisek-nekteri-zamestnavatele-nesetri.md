@@ -2,8 +2,7 @@
 title: Co letos nadělí firemní Ježíšek? Někteří zaměstnavatelé nešetří
 date: 2023-01-23
 papers: Dnes
-papersLogo: >-
-  /images/media/co-letos-nadeli-firemni-jezisek-nekteri-zamestnavatele-nesetri/papersLogo.png
+logo: dnes
 ---
 > Ačkoli se může zdát, že o odměnách v téhle ekonomicky nelehké době nemůže být ani řeč, šéfové firem to vidí jinak. Pokud se společnosti dařilo, odmění své zaměstnance na konci roku stejně jako dříve. Mnohde začali nadělovat už v létě.
 

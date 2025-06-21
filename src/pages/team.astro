@@ -1,0 +1,48 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import Flow from "../components/@Flow.astro";
+
+// Načti články
+const team = await getCollection('team');
+
+// Seskupení do Map podle roku
+const sortedTeam = team.sort((a, b) => a.data.order - b.data.order);
+---
+
+<Flow heading="Meet Touchdown team" backlink="Touchdown Team">
+
+  <h2 class="h5 mb-3 my-3">We connect you with the best professionals</h2>
+
+  <p>Successful and timely completion of projects is assured by our team of qualified consultants. 
+    Our consultants have a long history of diverse experience in Executive Search and HR projects. 
+    We offer the utmost professional service to both our clients and candidates.</p>
+
+  <p>The diverse educational background of our team enables us to understand the client’s needs 
+    from various areas.</p>
+
+  <div class="container"> 
+    <div class="row">
+
+      {sortedTeam.map((teamMember) => (
+        <div class="col-md-6" id={teamMember.id}>
+          <img src={teamMember.data.image} alt={teamMember.data.name} class="img-fluid">
+          <div class="card">
+            <h2 class="h5 text-start" >{teamMember.data.name}</h2>
+            <p class="text-muted">{teamMember.data.role}</p>
+            <a class="btn-link btn-arrow-right" href={`/team/${teamMember.slug}`}>Read more</a>
+          </div>
+        </div>
+      ))}
+
+    </div>
+  </div>
+</Flow>
+
+<style>
+  .card {
+    background: #f7f7f7;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+</style>

@@ -2,8 +2,7 @@
 title: Ekologické, praktické i luxusní. Za osobní dary firmy utratí tisíce
 date: 2023-01-23
 papers: Dnes
-papersLogo: >-
-  /images/media/ekologicke-prakticke-i-luxusni-za-osobni-dary-firmy-utrati-tisice/papersLogo.png
+logo: dnes
 ---
 > Pugét ke Dni žen, čokoládová kolekce před Vánocemi, jídelní servis k narození potomka, hodinky k padesátinám. Býval to jeden z mála benefitů, který zaměstnavatelé před sametovou revolucí drželi. Kytice karafiátů sebral čas, ale věcné dary jsou opět na scéně. I když v jiné podobě.
 Jak rostly platy, přibývalo zaměstnaneckých výhod. Lidé dostávali slevy na firemní výrobky, podnik platil jazykové kurzy nebo mobilní data.

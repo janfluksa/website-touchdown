@@ -24,4 +24,14 @@ const services = defineCollection({
   }),
 });
 
-export const collections = { media, services };
+const team = defineCollection({
+  // Type-check frontmatter using a schema
+  schema: z.object({
+    name: z.string(),
+    order: z.number(),
+    role: z.string(),
+    image: z.optional(z.string()),
+  }),
+});
+
+export const collections = { media, services, team };
