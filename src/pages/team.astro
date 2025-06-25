@@ -21,20 +21,25 @@ const sortedTeam = team.sort((a, b) => a.data.order - b.data.order);
     from various areas.</p>
 
   <div class="container"> 
-    <div class="row">
+    
+    {sortedTeam.map((teamMember) => (
+        <div class="row mt-5">
 
-      {sortedTeam.map((teamMember) => (
-        <div class="col-md-6" id={teamMember.id}>
-          <img src={teamMember.data.image} alt={teamMember.data.name} class="img-fluid">
-          <div class="card">
-            <h2 class="h5 text-start" >{teamMember.data.name}</h2>
-            <p class="text-muted">{teamMember.data.role}</p>
-            <a class="btn-link btn-arrow-right" href={`/team/${teamMember.slug}`}>Read more</a>
+          <div class="col-3" id={teamMember.id}>
+            <img src={teamMember.data.image} alt={teamMember.data.name} class="img-fluid teammember">
           </div>
-        </div>
+
+          <div class="col-9 ptx" id={teamMember.id}>
+              <h2 class="h5 text-start" >{teamMember.data.name}</h2>
+              <p class="text-muted">{teamMember.data.role}</p>
+              <p>{teamMember.body}</p>
+          </div>
+
+      </div>
+      <div class="row">
+      </div>
       ))}
 
-    </div>
   </div>
 </Flow>
 
@@ -44,5 +49,14 @@ const sortedTeam = team.sort((a, b) => a.data.order - b.data.order);
     border: none;
     padding: 1.5rem;
     border-radius: 1rem 0 0 1rem;
+  }
+  .teammember {
+    border-radius: 50%;
+    border: solid 1px rgba(0,0,0,0.2);
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.1);
+  }
+
+  .ptx {
+    padding-top: 2.25rem;
   }
 </style>
