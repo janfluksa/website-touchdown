@@ -58,7 +58,7 @@ a:hover {color: black; text-decoration: underline;}
 }
 
 .btn-link {
-    color: #f00b39 !important;
+    color: rgb(224, 0, 45) !important;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -141,6 +141,12 @@ p {
     padding-bottom: 4rem;
 }
 
+.v-section-padding.contact {
+
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
 .rounded {
     border-radius: 1rem !important;
     padding: 0;
@@ -216,8 +222,6 @@ h1 {
     font-size: 2.25rem; 
 }
 }
-
-
 
 
 article	h1 { font-size: 40px !important; }

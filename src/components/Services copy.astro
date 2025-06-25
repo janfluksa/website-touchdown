@@ -6,32 +6,29 @@ const services = unsortedServices.sort((a, b) => a.data.order - b.data.order);
 import Image from 'astro/components/Image.astro';
 ---
 
-<section class="v-section-padding services pt-4" aria-label="Consulting" id="consulting-services">
-  <div class="container container-narrow">
-    <div class="row d-flex justify-content-center">
+<section class="v-section-padding services" aria-label="Consulting" id="consulting-services">
+  <div class="container">
+    <div class="d-flex flex-column gap-5">
        {services.map(({ id, data }) => (
 
 
-            <div class="col-lg-6 col-md-6 mb-4 d-flex">
-            <div class="touchdowncol py-5 px-4 d-flex align-items-start">
+          <div class="row justify-content-center">
+
+            <div class:list={["col-lg-5 col-md-6", data.side == 'right' ? 'order-md-last' : '']} aria-hidden="true">
+              <img src={data.image} alt={data.title} class="img-fluid rounded mb-4 mb-md-0" />
+            </div>
+
+            <div class="col-lg-5 col-md-6 d-flex align-items-center">
                 <div class="px-4">
-                  <h3 class="h5">{data.title}</h3>
+                  <h3 class="h4">{data.title}</h3>
                   <p>{data.excerpt}</p>
                   <a class="btn-link btn-arrow-right" href={`/services/${id}`}>{data.linkLabel ? data.linkLabel : 'Read more'}</a>
                 </div>
+            </div>
              
               
-          </div>
           </div>
       ))}
     </div>
   </div>
 </section>
-
-<style>
-
-.touchdowncol {
-  background-color: #f7f7f7;
-  border-radius: 20px;
-}
-</style>
