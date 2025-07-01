@@ -55,7 +55,18 @@ const {
 						</div>
 					<slot />
 				</div>
+
+				<div class="col my-5 d-flex gap-2 justify-content-start">
+					<a class="brand" href="/"> 
+						<img src="/images/logo-touchdown.svg" alt="Company logo - Touchdown"> 
+					</a>
+					<span class="brand-claim">Boutique executive search company</span>
+				</div>
+
 			</div>
+
+
+
 
 		</section>
     
@@ -63,6 +74,7 @@ const {
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" 
 		integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" 
 		crossorigin="anonymous"></script>
+
 
 		<script>
 			document.addEventListener("DOMContentLoaded", () => {
@@ -109,6 +121,15 @@ const {
 
 	#preferHistory:hover {
 		text-decoration: none;
+	}
+
+	.brand-claim {
+		color: #858585;
+		margin-top: 2px;
+	}
+
+	a.brand img {
+		width: 120px;
 	}
 	
 </style>

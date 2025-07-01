@@ -2,7 +2,6 @@
 title: Organizational design
 order: 3
 link: https://example.com/webdev
-image: /images/services/organizational-design/image.png
 excerpt: |
   Aligning company organisational structure with long-term goals and strategies.
 side: left
