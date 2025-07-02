@@ -25,18 +25,22 @@ const sortedTeam = team.sort((a, b) => a.data.order - b.data.order);
     {sortedTeam.map((teamMember) => (
         <div class="row mt-5">
 
-          <div class="col-3" id={teamMember.id}>
+          <div class="col-3 ps-0" id={teamMember.id}>
             <img src={teamMember.data.image} alt={teamMember.data.name} class="img-fluid teammember">
           </div>
 
           <div class="col-9 ptx" id={teamMember.id}>
               <h2 class="h5 text-start" >{teamMember.data.name}</h2>
               <p class="text-muted">{teamMember.data.role}</p>
-              <p>{teamMember.body}</p>
           </div>
+
+          
 
       </div>
       <div class="row">
+        <div class="col pt-3 ps-0" id={teamMember.id}>
+            <p>{teamMember.body}</p>
+        </div>
       </div>
       ))}
 

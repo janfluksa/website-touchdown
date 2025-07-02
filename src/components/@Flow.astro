@@ -44,16 +44,20 @@ const {
 			<div class="container">
 				<div class="col col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
 					<div>
-						<div class:list={cls}>
-							<a href="/" id="preferHistory">
+						<div class:list={cls} class="px-3">
+							<a href="/" id="preferHistory" aria-label="Back to homepage">
 								{backlink}
 							</a>
 						</div>
 
-						<div class="mb-2" class:list={cls}>
+						<div class="mb-2 px-3" class:list={cls}>
 							{heading && <h1 class="h4">{heading}</h1> }
 						</div>
-					<slot />
+
+						<div class="mb-2 px-3" class:list={cls}>
+							<slot />
+						</div>
+					
 				</div>
 
 				<div class="col my-5 d-flex gap-2 justify-content-start">
