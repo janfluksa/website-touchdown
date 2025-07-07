@@ -10,7 +10,7 @@ interface Props {
 const { title, svg } = Astro.props;
 ---
 <div class="col-6 col-md-4 col-lg-3">
-	<div class="touchdown-card">
+	<div class="touchdown-card mb-4">
 		<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none" aria-hidden="true" class="rounded">
 			<path d={svg} fill="#5F6368"/>
 		</svg>
@@ -26,6 +26,10 @@ const { title, svg } = Astro.props;
 		background: #FAFAFA;
 		padding: 2rem;
 		gap: 1rem;
+	}
+	
+	.touchdown-card p {
+		height: 34px;
 	}
 
 	svg {
