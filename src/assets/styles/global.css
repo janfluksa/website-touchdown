@@ -20,6 +20,7 @@ a:hover {color: black; text-decoration: underline;}
     height: auto;
     width: auto;
     max-height: 50px;
+    max-width: 100%;
 }
 
 .papers-card {
@@ -27,7 +28,16 @@ a:hover {color: black; text-decoration: underline;}
     border: none;
     padding: 1.5rem;
     border-radius: 1rem 0 0 1rem;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
+}
+
+.papers-card-spa {
+    background: #f7f7f7;
+    border: none;
+    padding: .75rem 1.5rem 0 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+    margin-bottom: 1.5rem;
+    height: 100%;
 }
 
 .btn-rounded {
