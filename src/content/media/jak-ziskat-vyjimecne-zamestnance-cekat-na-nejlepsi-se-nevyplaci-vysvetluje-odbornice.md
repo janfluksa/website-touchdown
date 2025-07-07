@@ -6,7 +6,7 @@ date: 2024-02-22
 papers: HR Fórum
 logo: hr-forum
 ---
-> Jak vypadají dnešní nábory nových pracovníků? Které benefity se vyplatí nabízet? Co je to polyworking? A jak se v čase proměnil náš pracovní „šatník“? O tom všem si povídáme s Barborou Tomšovskou, která je Managing Director ve společnosti Touchdown Czech Republic, která se zabývá executive search a manažerským poradenstvím.
+> Jak vypadají dnešní nábory nových pracovníků? Které benefity se vyplatí nabízet? Co je to polyworking? A jak se v čase proměnil náš pracovní „šatník“? O tom všem si povídáme s Barborou Tomšovskou, která je Managing Director ve společnosti Touchdown Czech Republic, která se zabývá Executive Search a manažerským poradenstvím.
 
 ## Trh pracovních pozic se neustále mění, je ovlivněn vnitřními i vnějšími faktory. Jaké zásadní trendy na tomto trhu vidíte?
 

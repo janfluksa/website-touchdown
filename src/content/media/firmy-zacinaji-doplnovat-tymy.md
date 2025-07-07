@@ -6,7 +6,7 @@ logo: euro
 url: >-
   https://finance.idnes.cz/k-vypovedi-pristupujte-s-nadhledem-d6d-/podnikani.aspx?c=A090122_1125656_firmy_rady_hru
 ---
-Vidíme malé světlo na konci tunelu. Tak popisuje Barbora Tomšovská, výkonná ředitelka personální společnosti Touchdown Czech Republic, finanční krizi z pohledu executive search. Firmy prý nyní do rozvoje a školení svého vyššího a středního managementu investují více než před pár měsíci. „Už nikdy ale nenaberou lidi zpět do plných předkrizových stavů,“ upozorňuje. Tomšovská přiznává, že se rok 2009 její společnosti nevyvedl tak, jak původně plánovali. „Odpovídá to realitě, loňský rok podle mého názoru zamával s každým,“ říká.
+Vidíme malé světlo na konci tunelu. Tak popisuje Barbora Tomšovská, výkonná ředitelka personální společnosti Touchdown Czech Republic, finanční krizi z pohledu Executive Search. Firmy prý nyní do rozvoje a školení svého vyššího a středního managementu investují více než před pár měsíci. „Už nikdy ale nenaberou lidi zpět do plných předkrizových stavů,“ upozorňuje. Tomšovská přiznává, že se rok 2009 její společnosti nevyvedl tak, jak původně plánovali. „Odpovídá to realitě, loňský rok podle mého názoru zamával s každým,“ říká.
 
 ## Myslíte, že před krizí byly firmy přezaměstnané?
 
@@ -23,10 +23,10 @@ TOMŠOVSKÁ: Mělo by jít o člověka, který v minulosti práci příliš nem�
 
 TOMŠOVSKÁ: Oproti roku 2008 bylo loni určitě víc těch životopisů. Na začátku minulého roku bylo relativně dost zakázek. Od dubna do srpna poptávalo méně firem, zhruba od září se to zase zlepšilo.
 
-## Jaké jsou největší změny v oblasti executive search za posledních patnáct let?
+## Jaké jsou největší změny v oblasti Executive Search za posledních patnáct let?
 
 TOMŠOVSKÁ: Za prvé se mění typy firem, které tyto služby využívají. Když jsme začínali, šlo hodně o společnosti s rychloobrátkovým zbožím typu Coca Coly, Nestlé a podobně. Pak se těžiště posouvalo do služeb a do automobilového průmyslu, v němž byly obrovské investice. Dnes se zájem vrací zpět k rychloobrátkovým firmám nebo do farmaceutické branže a výroba je opět poptávána méně.
-Co se týče zvyklostí, na začátku devadesátých let šlo o novou službu a lidi na ni nebyli připravení. Oslovení kandidáti byli někdy překvapení, jak jsme se k nim vůbec dostali. Nyní je executive search něco, na co jsou top a střední manažeři zvyklí. Ti kandidáti, již zvažují změnu, vystaví svůj životopis na nějaké sociální síti, což indikuje, že jsou otevření novým věcem. Vše se také zrychlilo. V minulém desetiletí se životopisy a specifikace posílaly poštou, v lepším případě faxem. Trvalo týden, než jsme se s tím člověkem setkali. Dnes je vše mnohem rychlejší a efektivnější.
+Co se týče zvyklostí, na začátku devadesátých let šlo o novou službu a lidi na ni nebyli připravení. Oslovení kandidáti byli někdy překvapení, jak jsme se k nim vůbec dostali. Nyní je Executive Search něco, na co jsou top a střední manažeři zvyklí. Ti kandidáti, již zvažují změnu, vystaví svůj životopis na nějaké sociální síti, což indikuje, že jsou otevření novým věcem. Vše se také zrychlilo. V minulém desetiletí se životopisy a specifikace posílaly poštou, v lepším případě faxem. Trvalo týden, než jsme se s tím člověkem setkali. Dnes je vše mnohem rychlejší a efektivnější.
 
 Když někdo za pět let vystřídá pět firem, může mít dnes potíže, míní výkonná ředitelka personální společnosti Touchdown Czech Republic.
 
