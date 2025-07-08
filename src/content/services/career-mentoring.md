@@ -3,8 +3,8 @@ title: Career Mentoring
 order: 2
 link: https://example.com/webdev
 excerpt: >-
-  We offer experienced, thoughtful guidance to help you explore what’s next in
-  your career.
+  Sometimes the next step starts with the right conversation – we’re here for
+  that moment.
 side: right
 ---
-Whether you’re growing, changing direction, or simply seeking more clarity, mentoring can make all the difference. It’s about having someone by your side who helps you see the bigger picture, ask the right questions, and make confident decisions about your next steps.&nbsp;
+Whether you’re growing your career, changing direction, or simply seeking more clarity, mentoring can make all the difference. We’re here to be by your side – to ask the right questions, challenge your thinking, and help you make confident decisions about your next steps.
