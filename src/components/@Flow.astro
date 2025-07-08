@@ -54,17 +54,17 @@ const {
 							{heading && <h1 class="h4">{heading}</h1> }
 						</div>
 
-						<div class="mb-2 px-3" class:list={cls}>
+						<div class="mb-2 px-3" >
 							<slot />
 						</div>
 					
 				</div>
 
-				<div class="col my-5 d-flex gap-2 justify-content-start">
+				<div class="col my-5 d-flex gap-2 justify-content-start flex-column flex-md-row">
 					<a class="brand" href="/"> 
 						<img src="/images/logo-touchdown.svg" alt="Company logo - Touchdown"> 
 					</a>
-					<span class="brand-claim">Boutique Executive Search Company</span>
+					<div class="brand-claim">Boutique Executive Search Company</div>
 				</div>
 
 			</div>
@@ -135,5 +135,7 @@ const {
 	a.brand img {
 		width: 120px;
 	}
+
+	
 	
 </style>
