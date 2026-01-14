@@ -1,5 +1,5 @@
 ---
-title: Career Mentoring
+title: Career Development
 order: 2
 link: https://example.com/webdev
 excerpt: >-
