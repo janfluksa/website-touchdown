@@ -240,3 +240,8 @@ article	h3 { font-size: 26px !important; }
 article	h4 { font-size: 22px !important; }
 article	h5 { font-size: 20px !important; }
 article	h6 { font-size: 17px !important; }
+
+.footer-link {
+    color: white !important;
+    text-decoration: underline !important;
+}
