@@ -1,6 +1,6 @@
 ---
 title: Co letos nadělí firemní Ježíšek? Někteří zaměstnavatelé nešetří
-date: 2023-01-23
+date: 2022-12-01
 papers: Dnes
 logo: dnes
 ---

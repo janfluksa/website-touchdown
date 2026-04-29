@@ -1,6 +1,6 @@
 ---
 title: Nemají lidi, využívají headhuntery. Kdo se nechá snadno ulovit?
-date: 2023-01-23
+date: 2022-03-10
 papers: 'Dnes '
 logo: dnes
 ---

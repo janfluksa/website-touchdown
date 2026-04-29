@@ -1,6 +1,6 @@
 ---
 title: Kdo zaměstná ajťáka ze Lvova? O specialisty z Ukrajiny se firmy přetahují
-date: 2023-01-23
+date: 2022-05-12
 papers: Dnes
 logo: dnes
 ---

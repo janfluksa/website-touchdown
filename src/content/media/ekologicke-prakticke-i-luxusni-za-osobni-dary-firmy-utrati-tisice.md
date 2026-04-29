@@ -1,6 +1,6 @@
 ---
 title: Ekologické, praktické i luxusní. Za osobní dary firmy utratí tisíce
-date: 2023-01-23
+date: 2022-05-11
 papers: Dnes
 logo: dnes
 ---

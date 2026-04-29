@@ -1,6 +1,6 @@
 ---
 title: Čeká vás hromadný pohovor?
-date: 2023-01-23
+date: 2022-12-15
 papers: Dnes
 logo: dnes
 ---

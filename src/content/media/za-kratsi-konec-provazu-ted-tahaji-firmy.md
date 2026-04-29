@@ -1,6 +1,6 @@
 ---
 title: Za kratší konec provazu teď tahají firmy
-date: 2023-01-23
+date: 2022-03-17
 papers: 'Dnes '
 logo: dnes
 ---
